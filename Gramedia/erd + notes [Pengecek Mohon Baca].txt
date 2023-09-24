@@ -1,0 +1,30 @@
+admin name + pw
+username = "LC104"
+password = "password1"
+
+user
+-> user id
+-> nama
+-> email
+-> password
+-> phone number
+-> books owned
+-> role [Guest, Member, Admin]
+-> url
+
+books
+-> book id
+-> (foreign) user id
+-> url
+-> title
+-> description
+-> category
+-> price
+
+AlatTulis
+-> alatTulis id
+-> (foreign) user id
+-> nama barang
+-> url
+-> description
+-> price
